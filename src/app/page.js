@@ -5,8 +5,11 @@ import Courses from "./components/courses";
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      Filler Text
+    <div>
+      <Navbar />
+      <Hero />
+      <Courses />
     </div>
+
   );
 }
